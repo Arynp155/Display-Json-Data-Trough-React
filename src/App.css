@@ -1,0 +1,63 @@
+.app {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  padding: 10px;
+  width: 300px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.item {
+  background-color: #f5f5f5;
+  padding: 20px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.no-results {
+  color: #888;
+}
+
+.title-list {
+  list-style: none;
+}
+
+.title-list li:not(:last-child) {
+  margin-bottom: 1em;
+}
+
+.telephone-index-list{
+  text-align: left;
+}
+button{
+  background-color: transparent;
+  border: none;
+}
+button:hover{
+  background-color: black;
+  color: white;
+}
+.search-result-button {
+  background: none;
+  border: none;
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 0;
+}
+
+
